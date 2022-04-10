@@ -1,0 +1,13 @@
+.event-img img {
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+    
+}
+.event-img {
+    text-align: center;
+}
+
+.section-title p{
+    text-align: center;
+}
