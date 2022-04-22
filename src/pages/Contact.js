@@ -1,7 +1,7 @@
 import React from "react";
 import ContactImage from "../images/ContactImage.png";
 import "../styles/Contact.css";
-
+import { Link } from "react-router-dom";
 function Contact() {
   return (
     <div className="contact">
@@ -24,7 +24,10 @@ function Contact() {
             name="message"
             required
           ></textarea>
-          <button type="submit"> Send Message</button>
+          <Link to={`/thankyou`}>
+            <button > Send Message </button>
+          </Link>
+          {/* <button type="submit"> Send Message</button> */}
         </form>
       </div>
     </div>

@@ -11,3 +11,25 @@
 .section-title p{
     text-align: center;
 }
+
+.featureTitle{
+    background-color: #525050;
+    color: white;
+    padding-top: 9px;
+}
+
+.collapsibleTitle{
+    background-color: #525050;
+    color: white;
+    padding-top: 9px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+}
+
+.top20{
+    margin-top: 20px;;
+}
+
+.top0{
+    margin-top: 0px
+}
